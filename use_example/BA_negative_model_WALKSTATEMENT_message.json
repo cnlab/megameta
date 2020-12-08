@@ -1,0 +1,18 @@
+{ 
+      "ProjectID": "BA",
+      "TR": 2,
+      "BaseDirectory": "/data00/projects/megameta",
+      "ModelName": "message",
+      "TaskName": "walkstatement",
+      "LongName": "This model tracks neural response to physical activity messages",
+      "Conditions" : 
+          {
+              "message": ["MessageLOSS","MessageNA"],
+              "NA_control":   ["ControlNA"]
+          }
+      ,
+      "Runs": ["1","2","3"],
+        "CustomEventDir": "/data00/projects/megameta/walkstatement/raw/BA",
+    "CustomEventTemplate": "{SUBJ}/func/{SUBJ}_task-{TASK}_goalframing_run-0{RUN}_events.tsv"
+
+}
