@@ -25,4 +25,4 @@ Estimating model predictive accuracies using cross-validation. After a model has
 Cross-validation strategies are described in the relevant study sections.
 
 
-* Details of the pipeline and examples of the configuration are detailed [here](doc/cnlab_pipeline.md)
+* Examples of the configuration are detailed [here](https://github.com/cnlab/megameta/tree/master/use_example)
